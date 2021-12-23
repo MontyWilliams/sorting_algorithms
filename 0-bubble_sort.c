@@ -1,15 +1,14 @@
 #include "sort.h"
 /**
- * bubble_sort - bubble sort alg
- * @array - array padded in
- * @size - size of passed in array
+ * bubble_sort - bubble sort algorithm
+ * @array: array given to us
+ * @size: size of the array
  */
 
 void bubble_sort(int *array, size_t size)
 {
-
 	size_t i = 0;
-	int temp, flag = 0;
+	int tmp, flag = 0;
 
 	if (size < 2)
 		return;
@@ -19,16 +18,16 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[i] > array[i + 1])
 			{
-			flag = 1;
-			temp = array[i];
-			array[i] = array[i + 1];
-			array[i + 1] = temp;
-			print_array(array, size);
+				flag = 1;
+				tmp = array[i];
+				array[i] = array[i + 1];
+				array[i + 1] = tmp;
+				print_array(array, size);
+			}
+			i++;
 		}
-		i++;
-	}
 		if (flag == 0)
-				break;
+			break;
 		flag = 0;
 		i = 0;
 	}
