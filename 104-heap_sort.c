@@ -44,7 +44,7 @@ void heap_sort(int *array, size_t size)
  * @n: int
  * @a: int
  * @i: int
- * @size_t: size of the array
+ * @size: size of the array
  */
 void heap_m(int a[], int n, int i, size_t size)
 {
