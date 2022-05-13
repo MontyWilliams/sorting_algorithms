@@ -41,9 +41,9 @@ void heap_sort(int *array, size_t size)
 
 /**
  * heap_m - sort array of int ascending order
- * @int: int
- * @int: int
- * @int: int
+ * @n: int
+ * @a: int
+ * @i: int
  * @size_t: size of the array
  */
 void heap_m(int a[], int n, int i, size_t size)
