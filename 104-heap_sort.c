@@ -3,6 +3,11 @@
 #include "sort.h"
 
 
+/**
+ * heap_sort - sort array of int ascending order
+ * @array: array to sort
+ * @size: size of the array
+ */
 void heap_sort(int *array, size_t size)
 {
 
@@ -34,7 +39,13 @@ void heap_sort(int *array, size_t size)
 
 }
 
-
+/**
+ * heap_m - sort array of int ascending order
+ * @int: int
+ * @int: int
+ * @int: int
+ * @size_t: size of the array
+ */
 void heap_m(int a[], int n, int i, size_t size)
 {
 		int t;
